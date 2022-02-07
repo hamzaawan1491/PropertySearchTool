@@ -1,0 +1,132 @@
+.app {
+  height : auto;
+}
+
+.app-banner{
+  height: 120px;
+  background: whitesmoke;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-banner .app-banner__img{
+  position: absolute;
+  left: 25px;
+  padding: 5px;
+  top: 40px;
+  background: white;
+}
+
+.app-lower-container{
+  height: calc(100vh - 100px);
+}
+
+.filter-list{
+  background: whitesmoke;
+  padding   : 16px;
+  border-radius: 4px;
+  margin   : 12px 20px 130px 0;
+}
+
+.filter-items{
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.active-filter-items{
+  font-weight: bold;
+}
+
+.filter-items:hover{
+  border-radius: 4px;
+  background: darkgray;
+  color: white;
+  padding: 3px;
+  transition: all .3s ease-out;
+}
+
+.app .app-title {
+  margin        : 0 auto;
+  font-size     : 1.3rem;
+  width         : max-content;
+  text-align    : center;
+  padding-bottom: 5px;
+  border-bottom : 2px solid black;
+}
+
+.row-1by5{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 100px 10px;
+}
+
+.row-4by5{
+  width        : 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Search Icons */
+
+.box{
+  height: max-content;
+  margin-top: 25px;
+}
+.container-4{
+  overflow: hidden;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.container-4 input#search{
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #fff;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.container-4 input#search::-webkit-input-placeholder {
+  color: #65737e;
+}
+
+.container-4 input#search:-ms-input-placeholder {
+  color: #65737e;
+}
+
+.container-4 .icon{
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  border: none;
+  color: black;
+  background: yellow;
+
+  opacity: 0;
+  font-size: 10pt;
+
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+.table-body{
+  /* overflow: auto; */
+}
